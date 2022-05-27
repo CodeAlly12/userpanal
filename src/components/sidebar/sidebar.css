@@ -1,0 +1,38 @@
+.sidebar{
+    flex:1;
+    height:calc(100vh - 50px) ;
+    background-color:white;
+    position:sticky;
+    top: 50px;
+}
+.sidebarWrapper{
+    padding: 30px;
+    color: dimgrey;
+}
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+.sidebarTitle{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgrey;
+}
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarListItems{
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.sidebarListItems.active, .sidebarListItems:hover{
+    background-color: rgb(186, 215, 240);
+}
+.sidebarIcon{
+    margin-right: 6px;
+    font-size: 20px!important;
+}

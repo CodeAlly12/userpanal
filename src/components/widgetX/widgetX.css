@@ -1,0 +1,65 @@
+.WidgetX{
+    flex: 1;
+    box-shadow: 5px 5px 5px 0px rgba(82, 80, 80, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(153, 147, 147, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+.WidgetXTitle{
+    font: 20px;
+    font-weight: 600;
+
+}
+
+.WidgetXList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.widgetXImg{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.WidgetXListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+ 
+
+}
+.WidgetXUser{
+    display: flex;
+    flex-direction: column;
+}
+.WidgetXUsername{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.WidgetXJobTitle{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.widgetXButtonIcon{
+    color: green;
+    font-size: 16px;
+    margin: right 5px; ;
+}
+.WidgetXButton{
+    
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: black;
+    cursor: pointer;
+    
+}
